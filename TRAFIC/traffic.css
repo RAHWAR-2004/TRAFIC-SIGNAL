@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    background-color: blue;
+}
+div{
+    background-color: black;
+    height:350px;
+    width:250px;
+    padding-top:2px ;
+    margin:0 0 30% 40%;
+    border-radius: 20px;
+}
+.Red{
+    height:100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius:50px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(145, 35, 35);
+    align-items: center;
+    margin:3% 3% 3% 30%;
+    animation: first 10s infinite linear;
+}
+@keyframes first{
+    0%{
+        background-color:  rgb(145, 35, 35);
+    }
+    10%{
+        background-color: red;
+        box-shadow:6px 6px 50px solid red;
+    }
+}
+.Yellow{
+    height:100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius:50px;
+    text-align: center;
+    margin:4% 0 0 30%;
+    background-color: rgb(101, 101, 26);
+    animation: second 10s infinite linear;
+}
+@keyframes second{
+    0%{
+        background-color: rgb(101, 101, 26);
+    }
+    10%{
+        background-color:yellow;
+        box-shadow:6px 6px 50px solid yellow;
+    }
+}
+.Green{
+    height:100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius:50px;
+    text-align: center;
+    margin:4% 0 0 30%;
+    background-color: rgb(42, 109, 42);
+    animation: third 10s infinite linear;
+}
+@keyframes third{
+    0%{
+        background-color:  rgb(42, 109, 42);
+    }
+    10%{
+        background-color: green;
+        box-shadow:6px 6px 50px solid green;
+    }
+}
